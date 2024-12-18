@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+    <head name="Component header information">
+        <info fileVersion="02" prdID="RK3568" softVersion="5.1.1.6" date="2024-09-05" time="12:30">head info</info>
+    </head>
+    <group name = "Component information">
+    <component compAddr="vendor" compId="1" resType="5" compType="0" compVer="1.0">./vendor.img</component>
+    <component compAddr="system" compId="2" resType="5" compType="0" compVer="1.0">./system.img</component>
+    <!-- <component compAddr="uboot" compId="3" resType="5" compType="1" compVer="1.0">./uboot.img</component> -->
+    <!-- <component compAddr="boot_linux" compId="4" resType="5" compType="0" compVer="1.0">./boot_linux.img</component> -->
+    <!-- <component compAddr="ramdisk" compId="5" resType="5" compType="0" compVer="1.0">./ramdisk.img</component> -->
+    <!-- <component compAddr="resource" compId="6" resType="5" compType="0" compVer="1.0">./resource.img</component> -->
+    <!-- <component compAddr="updater" compId="9" resType="5" compType="0" compVer="1.0">./updater.img</component> -->
+    <!-- <component compAddr="sys-prod" compId="7" resType="5" compType="0" compVer="1.0">./sys_prod.img</component>
+    <component compAddr="chip-prod" compId="8" resType="5" compType="0" compVer="1.0">./chip_prod.img</component>
+    <component compAddr="updater" compId="9" resType="5" compType="0" compVer="1.0">./updater.img</component> -->
+    <!-- <component compAddr="openvalley1" compId="10" resType="5" compType="0" compVer="1.0">./openvalley1.img</component> -->
+    <!-- <component compAddr="userdata" compId="10" resType="5" compType="0" compVer="1.0">./userdata.img</component> -->
+    </group>
+</package>
+
+

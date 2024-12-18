@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Partition_Info> 
+<!-- <Part Sel="1" PartitionName="uboot" FlashType="emmc" FileSystem="none" Start="4M" Length="4M" SelectFile="/dev/block/platform/fe310000.sdhci/by-name/uboot"/> -->
+<Part Sel="1" PartitionName="misc" FlashType="emmc" FileSystem="none" Start="8M" Length="4M" SelectFile="/dev/block/platform/fe310000.sdhci/by-name/misc"/>
+<!-- <Part Sel="1" PartitionName="bootctrl" FlashType="emmc" FileSystem="ext3/4" Start="12M" Length="2M" SelectFile="/dev/block/platform/fe310000.sdhci/by-name/bootctrl"/> -->
+<Part Sel="1" PartitionName="resource" FlashType="emmc" FileSystem="none" Start="14M" Length="6M" SelectFile="/dev/block/platform/fe310000.sdhci/by-name/resource"/>
+<Part Sel="1" PartitionName="boot_linux" FlashType="emmc" FileSystem="ext3/4" Start="20M" Length="96M" SelectFile="/dev/block/platform/fe310000.sdhci/by-name/boot_linux"/>
+<Part Sel="1" PartitionName="ramdisk" FlashType="emmc" FileSystem="ext3/4" Start="116M" Length="4M" SelectFile="/dev/block/platform/fe310000.sdhci/by-name/ramdisk"/>
+<Part Sel="1" PartitionName="system" FlashType="emmc" FileSystem="ext3/4" Start="120M" Length="2048M" SelectFile="/dev/block/platform/fe310000.sdhci/by-name/system"/>
+<Part Sel="1" PartitionName="vendor" FlashType="emmc" FileSystem="ext3/4" Start="2168M" Length="1024M" SelectFile="/dev/block/platform/fe310000.sdhci/by-name/vendor"/>
+<!-- <Part Sel="1" PartitionName="sys-prod" FlashType="emmc" FileSystem="ext3/4" Start="3192M" Length="50M" SelectFile="/dev/block/platform/fe310000.sdhci/by-name/sys-prod"/> -->
+<!-- <Part Sel="1" PartitionName="chip-prod" FlashType="emmc" FileSystem="ext3/4" Start="3242M" Length="50M" SelectFile="/dev/block/platform/fe310000.sdhci/by-name/chip-prod"/> -->
+<Part Sel="1" PartitionName="updater" FlashType="emmc" FileSystem="ext3/4" Start="3292M" Length="32M" SelectFile="/dev/block/platform/fe310000.sdhci/by-name/updater"/>
+<Part Sel="1" PartitionName="openvalley1" FlashType="emmc" FileSystem="ext3/4" Start="3484M" Length="32M" SelectFile="/dev/block/platform/fe310000.sdhci/by-name/openvalley1"/>
+<!-- <Part Sel="1" PartitionName="userdata" FlashType="emmc" FileSystem="ext3/4" Start="9744M" Length="0M" SelectFile="/dev/block/platform/fe310000.sdhci/by-name/userdata"/> -->
+</Partition_Info>
